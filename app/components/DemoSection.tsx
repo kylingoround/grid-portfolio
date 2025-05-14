@@ -22,7 +22,7 @@ const ContentDescription = ({ title, tags, description }: { title: string, tags:
     return (
         <div className="flex flex-row gap-4">
             <div>
-                <h4 className="mb-3 text-lg text-style-title-lg">{title}</h4>
+                <h4 className="mb-3 text-lg     text-style-title-lg">{title}</h4>
                 <div className="flex gap-2">
                     {tags.map((tag) => (
                         <Tag key={tag}>{tag}</Tag>

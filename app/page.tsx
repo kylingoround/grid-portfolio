@@ -1,6 +1,5 @@
-import { DemoSection } from './components/DemoSection';
-import Chat from './components/Chat';
-import Chat2 from './components/Chat2';
+import { DemoSection } from "./components/DemoSection";
+import { ChatComponent } from "@/app/components/chat";
 
 export default function Home() {
   return (
@@ -8,7 +7,10 @@ export default function Home() {
       <DemoSection />
       <DemoSection />
       <DemoSection />
-      <Chat2 />
+      <ChatComponent />
     </main>
   );
 }
+
+// add a project section
+//  add a timeline section
